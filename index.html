@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05070d">
+  <title>Kodchi Studio — Zamonaviy dasturlash muhiti</title>
+  <meta name="description" content="Kodchi Studio — o‘zbek tiliga mos zamonaviy dasturlash muhiti. Kod yozing, o‘rganing va yarating.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kodchi Studio — Zamonaviy dasturlash muhiti">
+  <meta property="og:description" content="O‘zbek tiliga mos zamonaviy dasturlash muhiti. Kod yozing, o‘rganing va yarating.">
+  <meta property="og:image" content="logo.png">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="orb orb-a" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="Kodchi Studio home">
+      <img class="brand-logo" src="logo.png" alt="Kodchi Studio logosi"><span>Kodchi<span class="brand-accent"> Studio</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav id="mainNav">
+      <a href="#home" data-i18n="nav.home">Bosh sahifa</a>
+      <a href="#about" data-i18n="nav.about">Haqida</a>
+      <a href="#features" data-i18n="nav.features">Imkoniyatlar</a>
+      <a href="#download" data-i18n="nav.download">Yuklab olish</a>
+      <a href="#telegram" data-i18n="nav.telegram">Telegram</a>
+      <a href="#" id="githubNav" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
+      <div class="languages" aria-label="Language selector">
+        <button data-lang="uz">🇺🇿</button><button data-lang="ru">🇷🇺</button><button data-lang="en">🇬🇧</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span><span data-i18n="hero.eyebrow">ZAMONAVIY DASTURLASH MUHITI</span></div>
+        <h1>KODCHI <span>STUDIO</span></h1>
+        <p class="tagline" data-i18n="hero.tagline">Kod yozish. O‘rganish. Yaratish.</p>
+        <p class="lead" data-i18n="hero.lead">O‘zbek tiliga mos zamonaviy dasturlash muhiti.</p>
+        <p class="desc" data-i18n="hero.desc">Kodchi Studio — zamonaviy va qulay dasturlash muhiti yaratish maqsadida ishlab chiqilayotgan loyiha.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="KodchiStudio.exe" download data-i18n="buttons.download">⬇️ Yuklab olish</a>
+          <a class="btn btn-ghost" href="#about" data-i18n="buttons.about">🚀 Kodchi Studio haqida</a>
+          <a class="btn btn-telegram" href="https://t.me/kodchistudio" target="_blank" rel="noopener" data-i18n="buttons.telegram">📢 Telegram</a>
+        </div>
+        <div class="trust-row">
+          <span>HTML + CSS + JS</span><span>GitHub Pages</span><span>Windows</span>
+        </div>
+      </div>
+      <div class="hero-visual"><div class="hero-logo-card"><img src="logo.png" alt="Kodchi Studio rasmiy logosi"></div><div class="terminal" aria-label="Kodchi Studio coding visual">
+        <div class="terminal-top"><span></span><span></span><span></span><b>Kodchi Studio</b></div>
+        <div class="terminal-body">
+          <div><i>01</i><span class="purple">kodchi</span> <span class="cyan">salom</span> = <span class="green">"Assalomu alaykum!"</span></div>
+          <div><i>02</i><span class="purple">chiqar</span>(salom)</div>
+          <div><i>03</i></div>
+          <div><i>04</i><span class="comment">// Kod yozing. O‘rganing. Yaratishdan zavqlaning.</span></div>
+          <div class="cursor-line"><i>05</i><span class="cursor"></span></div>
+        </div>
+        <div class="terminal-status"><span>● Ready</span><span>UTF-8</span><span>Windows</span></div>
+      </div></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <span class="section-kicker">01 / ABOUT</span>
+        <h2 data-i18n="about.title">Kodchi Studio nima?</h2>
+        <p data-i18n="about.text">Kodchi Studio — zamonaviy dasturlash muhiti yaratish loyihasi. Loyihaning maqsadi dasturlashni qulayroq va zamonaviyroq qilish, ayniqsa o‘zbek tilidagi foydalanuvchilar uchun qulay muhit yaratish. Loyiha kelajakda yangi imkoniyatlar bilan rivojlantirilishi mumkin.</p>
+      </div>
+      <div class="about-grid">
+        <div class="info-card"><div class="icon">⌘</div><h3 data-i18n="about.card1.title">Developer-first</h3><p data-i18n="about.card1.text">Kod yozish jarayonini sodda, tushunarli va zamonaviy tajribaga aylantirish.</p></div>
+        <div class="info-card"><div class="icon">UZ</div><h3 data-i18n="about.card2.title">Mahalliy yondashuv</h3><p data-i18n="about.card2.text">O‘zbek tilidagi foydalanuvchilarni markazga qo‘ygan dasturlash tajribasi.</p></div>
+        <div class="info-card"><div class="icon">↗</div><h3 data-i18n="about.card3.title">Kelajak sari</h3><p data-i18n="about.card3.text">Yangi versiyalar va imkoniyatlar bilan bosqichma-bosqich rivojlanadigan loyiha.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <span class="section-kicker">02 / FEATURES</span>
+        <h2 data-i18n="features.title">Imkoniyatlar</h2>
+        <p data-i18n="features.subtitle">Kod yozish tajribasini qulay va zamonaviy qilishga qaratilgan asosiy yo‘nalishlar.</p>
+      </div>
+      <div class="features-grid">
+        <article class="feature-card"><span class="feature-icon">💻</span><h3 data-i18n="features.f1.t">Kod yozish</h3><p data-i18n="features.f1.d">Zamonaviy kod yozish muhiti.</p></article>
+        <article class="feature-card"><span class="feature-icon">🇺🇿</span><h3 data-i18n="features.f2.t">O‘zbek tiliga mos</h3><p data-i18n="features.f2.d">O‘zbek tilidagi foydalanuvchilar uchun qulay.</p></article>
+        <article class="feature-card"><span class="feature-icon">🎨</span><h3 data-i18n="features.f3.t">Zamonaviy interfeys</h3><p data-i18n="features.f3.d">Toza va zamonaviy UI.</p></article>
+        <article class="feature-card"><span class="feature-icon">⚙️</span><h3 data-i18n="features.f4.t">Sozlamalar</h3><p data-i18n="features.f4.d">Dastur sozlamalarini boshqarish.</p></article>
+        <article class="feature-card"><span class="feature-icon">👤</span><h3 data-i18n="features.f5.t">Profil tizimi</h3><p data-i18n="features.f5.d">Foydalanuvchi profili.</p></article>
+        <article class="feature-card"><span class="feature-icon">💬</span><h3 data-i18n="features.f6.t">Chat</h3><p data-i18n="features.f6.d">Foydalanuvchilar bilan muloqot imkoniyati.</p></article>
+        <article class="feature-card"><span class="feature-icon">🛠️</span><h3 data-i18n="features.f7.t">Admin tizimi</h3><p data-i18n="features.f7.d">Boshqaruv imkoniyatlari.</p></article>
+        <article class="feature-card"><span class="feature-icon">🚀</span><h3 data-i18n="features.f8.t">Rivojlanmoqda</h3><p data-i18n="features.f8.d">Yangi funksiyalar doimiy ravishda qo‘shilishi mumkin.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="screenshots">
+      <div class="section-heading">
+        <span class="section-kicker">03 / SCREENSHOTS</span>
+        <h2 data-i18n="shots.title">Kodchi Studio'ni ko‘ring</h2>
+        <p data-i18n="shots.subtitle">Dastur interfeysi va keyingi screenshotlar uchun tayyor gallery.</p>
+      </div>
+      <div class="gallery">
+        <button class="shot-placeholder shot-one" data-lightbox="shot-one" aria-label="Open screenshot"><span>&lt;/&gt;</span><b>Kodchi Studio</b><small>SCREENSHOT 01</small></button>
+        <button class="shot-placeholder shot-two" data-lightbox="shot-two" aria-label="Open screenshot"><span>01</span><b>Code workspace</b><small>SCREENSHOT 02</small></button>
+        <button class="shot-placeholder shot-three" data-lightbox="shot-three" aria-label="Open screenshot"><span>⚙</span><b>Developer tools</b><small>SCREENSHOT 03</small></button>
+      </div>
+    </section>
+
+    <section class="download section" id="download">
+      <div class="download-inner">
+        <div><span class="section-kicker">04 / DOWNLOAD</span><h2 data-i18n="download.title">Kodchi Studio 1.0</h2><p data-i18n="download.text">Windows uchun yuklab oling va Kodchi Studio bilan kod yozishni boshlang.</p></div>
+        <a class="btn btn-primary big" href="KodchiStudio.exe" download><span>⬇️</span><span data-i18n="download.button">YUKLAB OLISH</span></a>
+      </div>
+      <div class="download-note" data-i18n="download.note">Fayl: KodchiStudio.exe · Windows</div>
+    </section>
+
+    <section class="section" id="news">
+      <div class="section-heading">
+        <span class="section-kicker">05 / NEWS</span>
+        <h2 data-i18n="news.title">Yangiliklar</h2>
+      </div>
+      <article class="news-card"><div class="news-number">01</div><div><span class="news-tag" data-i18n="news.tag">Rasmiy taqdimot</span><h3>Kodchi Studio 1.0</h3><p data-i18n="news.text">Kodchi Studio'ning birinchi ommaviy versiyasi.</p></div><span class="news-arrow">↗</span></article>
+    </section>
+
+    <section class="section telegram-section" id="telegram">
+      <div class="telegram-card">
+        <div class="tg-icon">✈</div>
+        <div><span class="section-kicker">TELEGRAM</span><h2 data-i18n="tg.title">Rasmiy Telegram kanal</h2><p class="handle">@kodchistudio</p><p data-i18n="tg.text">Kodchi Studio yangiliklari, yangi versiyalar va rasmiy e'lonlarni Telegram kanalimizda kuzatib boring.</p></div>
+        <a class="btn btn-telegram" href="https://t.me/kodchistudio" target="_blank" rel="noopener" data-i18n="tg.button">Telegram kanaliga o'tish →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <a class="brand" href="#home"><img class="brand-logo" src="logo.png" alt="Kodchi Studio logosi"><span>Kodchi<span class="brand-accent"> Studio</span></span></a>
+      <div class="footer-links"><a href="#home" data-i18n="footer.home">Bosh sahifa</a><a href="#" id="githubFooter" target="_blank" rel="noopener">GitHub</a><a href="https://t.me/kodchistudio" target="_blank" rel="noopener">Telegram</a><a href="KodchiStudio.exe" download data-i18n="footer.download">Yuklab olish</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Kodchi Studio</span><span>@kodchistudio</span></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button id="lightboxClose" aria-label="Close">×</button>
+    <div class="lightbox-content"><div class="fake-shot" id="fakeShot"></div></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
